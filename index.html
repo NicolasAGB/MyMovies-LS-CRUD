@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" type="module" defer></script>
+    <title>Proyecto web js</title>
+</head>
+
+<body>
+    <div class="layout">
+        <!--cabecera-->
+        <header class="header">
+            <div class="logo">
+                <div class="play"></div>
+            </div>
+            <h1>MyMovies</h1>
+        </header>
+
+        <!--navigation-->
+        <nav class="nav">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!--Contenido pricipal-->
+        <section class="content" id="content">
+            <!--articles-->
+            <article class=" item">
+                <h3 class="title">text text : text text</h3>
+                <p class="description"></p>
+
+                <button class="edit">Edit</button>
+                <button class="delete">Delete</button>
+            </article>
+
+
+
+        </section>
+        <aside class="aside">
+            <div class="search">
+                <h3 class="title">Find it!</h3>
+                <form action="">
+                    <input type="text" id="search_field">
+                    <button id="search">Buscar</button>
+                </form>
+            </div>
+            <div class="add">
+                <h3 class="title">Add film</h3>
+                <input type="text" placeholder="Tittle" id="title">
+                <textarea name="" placeholder="description" id="description"></textarea>
+                <input type="submit" name="save" id="save" value="save">
+            </div>
+        </aside>
+        <!--Footer-->
+        <footer class="footer">
+            &copy; Master en JavaScript ES12 y TypeScript - <a href="https://nagb.tech">Nag!</a>
+        </footer>
+    </div>
+</body>
+
+</html>
